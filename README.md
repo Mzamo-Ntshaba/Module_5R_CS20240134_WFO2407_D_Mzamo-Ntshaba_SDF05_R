@@ -2,39 +2,70 @@
 
 Get ready to create animated buttons using CSS! This project focuses on creating three unique animated buttons using CSS. With this challenge, you'll dive into the world of CSS animations, transitions, and interactivity.
 
-## Learning Goals
+# Button 1 
 
-By completing this project, you will learn to:
+- .btn-1 = This targets elements with the class btn-1, applying specific styles to them.
 
-- Design engaging button animations with CSS.
-- Master the use of CSS transitions and animations for interactive effects.
+- background: blue =Sets the background color of .btn-1 to blue. This is the initial state of the button.
 
-![alt text](./images/image.png)
+- transition: color 1s ease-out =Specifies which CSS properties should transition smoothly when they change.
 
-## Project Overview
+- color = Specifies that the transition applies to the color property.
 
-### Time Estimate: 2 hours
+- 1s =  Sets the duration of the transition to 1 second.
 
-## What you Need to Do:
+- ease-out = Specifies the timing function for the transition, making the color change decelerate smoothly towards the end.
 
-1. **Starter Code**: Clone the starter code from GitHub for your project. The HTML structure is provided, and you'll focus on adding styles in the `style.css` file.
+- .btn-1:hover pseudo selector  =  This applies styles to .btn-1 when it is hovered over by the mouse.
 
-    - Starter code can be found here: https://github.com/CodeSpace-Academy/Module_5R_StudentNo_Classcode_Group_Name-Surname_SDF05R
+- color: white = Changes the text color to white when .btn-1 is hovered over.
 
-2. **Write your CSS Styles**: Create your animations from scratch. Need a hint of inspiration? You're welcome to go through our curated buttons for inspiration: [View Reference](https://codepen.io/codespace-academy/pen/xxmWrjX). 
+- box-shadow: 0 4px 10px black = Adds a black shadow (0 4px 10px black) around .btn-1 when hovered over.
+0 for no horizontal offset, 4px for vertical offset, 10px for blur radius, and black for shadow color.
 
-3. **Prepare Your Repository**: 
-    - Save all chanes and update your GitHub repository with the final versions of all files.
-    - Include a `README.md` file that outlines the project, your design choices, and any notes on challenges you faced or features you're particularly proud of.
-    - Ensure your repository is set to public so it can be accessed by your code coach.
+-transform: scale(1.2, 0.5) = Scales .btn-1 on hover using the scale transformation.
+1.2 scales the button horizontally in the x direction to 120% of its original size.
+0.5 scales the button vertically in the y direction to 50% of its original size.
 
-4. **Submit on LMS**:
-    - Submit the link to your GitHub repository on the LMS under the project tab.
+# Button 2
 
-Embark on this CSS journey to transform simple buttons into interactive, animated elements. Let your creativity shine and enjoy the process of bringing static elements to life!
+-.btn-2 = Targets elements with the class btn-2.
+
+- background: green =  Sets the background color of .btn-2 to green by default.
+
+- .btn-2:hover psuedo selector = Applies styles to .btn-2 when it is hovered over.
+
+- box-shadow: 0 4px 10px black = Adds a black shadow around .btn-2 when hovered over.
+
+- background-color: red = Changes the background color of .btn-2 to red on hover.
+
+- letter-spacing: 2.5px =  Increases the spacing between letters in .btn-2 on hover by 2.5 pixels.
+
+- color: yellow =  Changes the text color of .btn-2 to yellow on hover.
 
 
-## Submission Guidelines
-- Submit the link to your GitHub repository on the LMS under the project tab.
+# Button 2
 
-Embark on this CSS journey to transform simple buttons into interactive, animated elements. Let your creativity shine and enjoy the process of bringing static elements to life!
+- .btn-3 = Targets elements with the class btn-3.
+
+- background-color: orange = Sets the background color of .btn-3 to orange by default
+
+- .btn-3:hover psuedo Selector: Applies styles to .btn-3 when it is hovered over.
+
+- box-shadow: 0 4px 10px black =  Adds a black shadow around .btn-3 when hovered over.
+
+- color: blue = Changes the text color of .btn-3 to blue on hover.
+
+- transform: translate(5px, 5px) = Translates (moves) .btn-3 horizontally and vertically by 5 pixels on hover.
+
+- background-color: yellow = changes the background color of .btn-3 to yellow on hover.
+
+- span style=font-weight: bold , this makes click here to come out bold
+
+# Challenges
+
+- the biggest challenge was figuring out how i was going to go about the transitions and figuring out how to scale them correctly cause next thing its something you didnt expect i would say trial and error also helped with the sizing and it ended up working
+
+# Highlights 
+
+- I am particularly proud at how the final buttons looked initially i did not think i was going to get there loved using that letter spacing i learnt from scrimba additionally i love how smooth the transitions are throughout 
