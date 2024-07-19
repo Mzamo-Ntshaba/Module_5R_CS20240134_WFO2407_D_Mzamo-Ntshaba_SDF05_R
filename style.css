@@ -52,3 +52,41 @@ p {
 }
 
 /* Add your custom styles for btn-1, btn-2, and btn-3 */
+.btn-1 {
+    background: blue; /* Blue background */
+    transition: color 1s ease-out;
+}
+
+.btn-1:hover {
+    color: white; /* Change background on hover */
+    box-shadow: 0 4px 10px black; /* Add shadow on hover */
+    transform: scale(1.2,0.5); /* Lift effect */
+
+}
+
+/* Button 2 */
+.btn-2 {
+    background: green ;/* Purple background */
+
+}
+
+.btn-2:hover {
+    box-shadow: 0 4px 10px black; /* Add shadow on hover */
+    background-color: red;
+    letter-spacing: 2.5px;
+    color: yellow;
+}
+
+.btn-3{
+    background-color: orange;
+}
+
+
+.btn-3:hover{
+    box-shadow: 0 4px 10px black; /* Add shadow on hover */
+    color: blue; 
+    transform: translate(5px,5px);
+    background-color: yellow;
+
+}
+
