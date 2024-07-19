@@ -60,20 +60,20 @@ p {
 .btn-1:hover {
     color: white; /* Change background on hover */
     box-shadow: 0 4px 10px black; /* Add shadow on hover */
-    transform: scale(1.2,0.5); /* Lift effect */
+    transform: scale(1.2,0.5); /* lift effect */
 
 }
 
 
 .btn-2 {
-    background: green ;/* Purple background */
+    background: green ;/* green background */
 
 }
 
 .btn-2:hover {
-    box-shadow: 0 4px 10px black; /* Add shadow on hover */
+    box-shadow: 0 4px 10px black; /* Add black shadow on hover */
     background-color: red;
-    letter-spacing: 2.5px;
+    letter-spacing: 2.5px; /* introduces a space of 2.5 between the letters when you hover over it */
     color: yellow;
 }
 
@@ -83,9 +83,9 @@ p {
 
 
 .btn-3:hover{
-    box-shadow: 0 4px 10px black; /* Add shadow on hover */
+    box-shadow: 0 4px 10px black; /* Add black shadow on hover */
     color: blue; 
-    transform: translate(5px,5px);
+    transform: translate(5px,5px); /* it enlarges it a bit */
     background-color: yellow;
 
 }
