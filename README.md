@@ -44,7 +44,7 @@ Get ready to create animated buttons using CSS! This project focuses on creating
 - color: yellow =  Changes the text color of .btn-2 to yellow on hover.
 
 
-# Button 2
+# Button 3
 
 - .btn-3 = Targets elements with the class btn-3.
 
